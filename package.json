@@ -1,0 +1,33 @@
+{
+  "name": "fype",
+  "version": "0.0.0",
+  "description": "Determine if directory, file, and symbolic link.",
+  "main": "fype.js",
+  "scripts": {
+    "test": "mocha fype-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/fype.git"
+  },
+  "keywords": [
+    "directory",
+    "file",
+    "link",
+    "fype"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/fype/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/fype#readme",
+  "dependencies": {
+    "depher": "^0.36.0",
+    "falzy": "^0.20.0",
+    "harden": "^0.22.0",
+    "kept": "^0.24.0",
+    "raze": "^0.33.0",
+    "zelf": "^0.12.0"
+  }
+}
